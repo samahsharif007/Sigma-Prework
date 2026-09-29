@@ -10,4 +10,6 @@ def max_min_finder(numbers):
 
     return max_num, min_num
 
-
+numbers = [5, 70, -23, 700, 8]
+result = max_min_finder(numbers)
+print(result)
